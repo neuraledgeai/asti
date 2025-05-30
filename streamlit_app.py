@@ -1,6 +1,6 @@
 import streamlit as st
 from together import Together
-from PyPDF2 import PdfReader
+from PyPDF2 import PdfReader 
 from docx import Document
 import re
 from serpapi import GoogleSearch
