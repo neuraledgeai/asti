@@ -1,3 +1,4 @@
+import streamlit as st
 from together import Together
 from PyPDF2 import PdfReader
 from docx import Document
@@ -18,9 +19,9 @@ st.set_page_config(
 st.sidebar.page_link("app.py", label="Chat", icon="💬")
 
 # Initialize Together client
-api_key = environ.get("API_KEY")
+api_key = st.secrets["API_KEY"]
 client = Together(api_key=api_key)
-serp_api_key = environ.get("SERP_API_KEY")
+serp_api_key = st.secrets["SERP_API_KEY"]
 
 # Model names
 META_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
