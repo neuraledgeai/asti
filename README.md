@@ -4,7 +4,7 @@ Today's students have a plethora of AI tools at their fingertips for getting qui
 
 ## What is Asti?
 
-Asti is an intelligent AI assistant designed to revolutionize personalized learning. It transforms static study materials into dynamic, engaging, and personalized learning experiences, guiding students towards mastery.nnn
+Asti is an intelligent AI assistant designed to revolutionize personalized learning. It transforms static study materials into dynamic, engaging, and personalized learning experiences, guiding students towards mastery.
 
 ## Features ✨
 
